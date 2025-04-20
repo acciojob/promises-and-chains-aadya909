@@ -6,7 +6,7 @@ document.getElementById('votingForm').addEventListener('submit', function (e) {
 
       // Basic validation for empty inputs
       if (name === '' || age === '') {
-        alert('Please enter valid details.');
+        alert('Please enter valid details');
         return;
       }
 
